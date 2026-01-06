@@ -1,5 +1,5 @@
-To build
+#To build
 npm run build
 
-To start
+#To start
 npm run dev
