@@ -1,5 +1,5 @@
 
-import { FaLinkedin, FaGithub, FaCode, FaEnvelope, FaYoutube, FaProductHunt } from 'react-icons/fa';
+import { FaLinkedin, FaGithub, FaCode, FaEnvelope, FaYoutube, FaProductHunt, FaNewspaper } from 'react-icons/fa';
 
 export const personalInfo = {
     name: "Mridul Sharma",
@@ -28,6 +28,11 @@ export const personalInfo = {
             name: "Product Hunt",
             icon: FaProductHunt,
             url: "https://www.producthunt.com/@mridul21",
+        },
+        {
+            name: "Blog",
+            icon: FaNewspaper,
+            url: "http://techblogsbymridul.netlify.app/",
         },
     ],
 };
@@ -102,6 +107,12 @@ export const experience = [
 ];
 
 export const projects = [
+    {
+        name: "Tech Blogs",
+        description: "My technical blog sharing insights on engineering, AI, and software development.",
+        link: "http://techblogsbymridul.netlify.app/",
+        tech: ["Blog", "Content", "Web"],
+    },
     {
         name: "RefineCV - JD Matcher",
         description: "Contributed to a project for tailoring resumes with Job Descriptions.",
