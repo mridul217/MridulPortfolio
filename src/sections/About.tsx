@@ -6,13 +6,13 @@ export default function About() {
   return (
     <section id="about" className="py-20">
       <div className="flex items-center gap-4 mb-12">
-        <h2 className="text-3xl font-bold text-lightText dark:text-white shrink-0">
+        <h2 className="text-2xl md:text-3xl font-bold text-lightText dark:text-white shrink-0">
           <span className="text-primary mr-2">01.</span> About Me
         </h2>
         <div className="h-px bg-gray-300 dark:bg-gray-700 w-full max-w-xs"></div>
       </div>
 
-      <div className="grid md:grid-cols-3 gap-12">
+      <div className="grid md:grid-cols-3 gap-8 md:gap-12">
         <div className="md:col-span-2 text-lg text-gray-600 dark:text-gray-300 leading-relaxed space-y-4">
           <p>
             Hello, I&apos;m Mridul.

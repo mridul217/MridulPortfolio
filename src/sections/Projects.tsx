@@ -7,7 +7,7 @@ export default function Projects() {
   return (
     <section id="projects" className="py-20">
       <div className="flex items-center gap-4 mb-12">
-        <h2 className="text-3xl font-bold text-lightText dark:text-white shrink-0">
+        <h2 className="text-2xl md:text-3xl font-bold text-lightText dark:text-white shrink-0">
           <span className="text-primary mr-2">03.</span> Some Things I've Built
         </h2>
         <div className="h-px bg-gray-300 dark:bg-gray-700 w-full max-w-xs"></div>
@@ -17,7 +17,7 @@ export default function Projects() {
         {projects.map((project, index) => (
           <div
             key={index}
-            className="group relative bg-white dark:bg-darkCard p-8 rounded-lg shadow-lg hover:-translate-y-2 transition-transform duration-300 flex flex-col h-full border border-gray-100 dark:border-transparent"
+            className="group relative bg-white dark:bg-darkCard p-6 md:p-8 rounded-lg shadow-lg hover:-translate-y-2 transition-transform duration-300 flex flex-col h-full border border-gray-100 dark:border-transparent"
           >
             <div className="flex justify-between items-start mb-6">
               <FaFolder className="text-4xl text-primary" />

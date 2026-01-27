@@ -25,7 +25,7 @@ export default function App() {
     <ThemeProvider>
       <div className="min-h-screen transition-colors duration-300 bg-lightBg dark:bg-darkBg text-lightText dark:text-darkText font-sans selection:bg-primary selection:text-white">
         <ThemeToggle />
-        <main className="container mx-auto px-6 py-8">
+        <main className="container mx-auto px-4 md:px-6 lg:px-8 py-8">
           <Hero />
           <About />
           <Experience />

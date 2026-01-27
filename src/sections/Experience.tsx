@@ -8,7 +8,7 @@ export default function Experience() {
   return (
     <section id="experience" className="py-20">
       <div className="flex items-center gap-4 mb-12">
-        <h2 className="text-3xl font-bold text-lightText dark:text-white shrink-0">
+        <h2 className="text-2xl md:text-3xl font-bold text-lightText dark:text-white shrink-0">
           <span className="text-primary mr-2">02.</span> Where I've Worked
         </h2>
         <div className="h-px bg-gray-300 dark:bg-gray-700 w-full max-w-xs"></div>
@@ -22,7 +22,7 @@ export default function Experience() {
               key={index}
               onClick={() => setActiveTab(index)}
               className={`
-                px-6 py-4 text-left whitespace-nowrap md:whitespace-normal transition-all duration-300 border-b-2 md:border-b-0 md:border-l-2 -mb-[2px] md:-mb-0 md:-ml-[2px]
+                px-4 py-3 md:px-6 md:py-4 text-left whitespace-nowrap md:whitespace-normal transition-all duration-300 border-b-2 md:border-b-0 md:border-l-2 -mb-[2px] md:-mb-0 md:-ml-[2px] text-sm md:text-base
                 ${activeTab === index
                   ? 'text-primary border-primary bg-primary/5 dark:bg-primary/10'
                   : 'text-gray-500 dark:text-gray-400 border-transparent hover:text-primary dark:hover:text-accent hover:bg-gray-50 dark:hover:bg-darkCard'}
@@ -34,7 +34,7 @@ export default function Experience() {
         </div>
 
         {/* Panel Content */}
-        <div className="min-h-[400px]">
+        <div className="min-h-[300px] md:min-h-[400px]">
           <div className="space-y-4 animate-fade-in">
             <h3 className="text-xl font-bold text-lightText dark:text-gray-100">
               {experience[activeTab].role}{" "}
