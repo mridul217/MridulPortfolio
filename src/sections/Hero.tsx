@@ -5,7 +5,7 @@ import { FaDownload } from 'react-icons/fa';
 
 export default function Hero() {
   return (
-    <section className="min-h-[90vh] flex flex-col justify-center items-start pt-16">
+    <section id="hero" className="min-h-[90vh] flex flex-col justify-center items-start pt-16">
       <div className="animate-fade-in space-y-6 max-w-4xl">
         <p className="text-secondary dark:text-accent font-medium text-lg tracking-wide">
           Hi, I am

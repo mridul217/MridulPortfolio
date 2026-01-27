@@ -1,3 +1,6 @@
+import { useEffect } from 'react'
+import ReactGA from 'react-ga4'
+import { useSectionTracking } from './hooks/useSectionTracking'
 import { ThemeProvider } from './context/ThemeContext'
 import ThemeToggle from './components/ThemeToggle'
 import Hero from './sections/Hero'
@@ -8,6 +11,16 @@ import Research from './sections/Research'
 import Contact from './sections/Contact'
 
 export default function App() {
+  useEffect(() => {
+    // Initialize Google Analytics
+    ReactGA.initialize('G-89T07ZQRBC')
+    // Send initial pageview for the root route
+    ReactGA.send({ hitType: "pageview", page: window.location.pathname })
+  }, [])
+
+  // Track sections as virtual page views
+  useSectionTracking()
+
   return (
     <ThemeProvider>
       <div className="min-h-screen transition-colors duration-300 bg-lightBg dark:bg-darkBg text-lightText dark:text-darkText font-sans selection:bg-primary selection:text-white">
