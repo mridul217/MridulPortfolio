@@ -18,7 +18,7 @@ export default function About() {
             Hello, I&apos;m Mridul.
           </p>
           <p>
-            I&apos;m a Software Engineer with over 4+ years of experience building reliable, scalable systems and AI-driven products that live on the internet. My work is deeply rooted in backend engineering, with a strong passion for AI innovation and data-driven problem solving.
+            I&apos;m a Software Engineer based in <span className="text-primary font-medium">Bengaluru</span> (originally from <span className="text-secondary dark:text-accent font-medium">Dehradun</span>) with over 4+ years of experience building reliable, scalable systems and AI-driven products that live on the internet. My work is deeply rooted in backend engineering, with a strong passion for AI innovation and data-driven problem solving.
           </p>
           <p>
             I specialize in <span className="text-primary">Python</span>, <span className="text-primary">AI/ML</span>, and <span className="text-primary">Full-Stack Engineering</span>, and have had the opportunity to work across diverse environments — from an observability product company to an AI startup, and a large enterprise organization. These experiences have shaped my ability to design robust systems, collaborate across teams, and deliver real-world impact.

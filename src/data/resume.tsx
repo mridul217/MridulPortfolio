@@ -5,9 +5,9 @@ export const personalInfo = {
     name: "Mridul Sharma",
     title: "Software Engineer",
     email: "sharma.mridul217@gmail.com",
-    location: "India",
+    location: "Bengaluru, India",
     phone: "+91-8126026826",
-    about: "Software Engineer with 4+ years of experience building scalable systems and intelligent products for the web.",
+    about: "Software Engineer based in Bengaluru (originally from Dehradun) with 4+ years of experience building scalable systems and intelligent AI/ML products.",
     social: [
         {
             name: "LinkedIn",
