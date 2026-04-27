@@ -114,16 +114,28 @@ export const projects = [
         tech: ["Blog", "Content", "Web"],
     },
     {
+        name: "CalmTube",
+        description: "YouTube content management extension focused on productivity. 200+ active installs.",
+        link: "https://chromewebstore.google.com/detail/calmtube/lmkhajjihpkcligkoomncmjndfhaboig",
+        tech: ["Chrome Extension", "Web"],
+    },
+    {
+        name: "Image Converter",
+        description: "Context-menu extension for instant image conversion to PNG, JPG, or WEBP. 200+ active installs.",
+        link: "https://chromewebstore.google.com/detail/tristudio-image-format-co/aapbmiofglnaganfpnacbiekndihgnfl",
+        tech: ["Chrome Extension", "Web"],
+    },
+    {
+        name: "PromptHub",
+        description: "Centralized prompt management extension for AI workflows. 300+ active installs.",
+        link: "https://sites.google.com/view/prompthub21/",
+        tech: ["Chrome Extension", "Web"],
+    },
+    {
         name: "RefineCV - JD Matcher",
         description: "Contributed to a project for tailoring resumes with Job Descriptions.",
         link: "https://refinecv.netlify.app/",
         tech: ["Web", "AI", "Resume"],
-    },
-    {
-        name: "PromptHub Extension",
-        description: "Chrome extension for prompt management.",
-        link: "https://sites.google.com/view/prompthub21/",
-        tech: ["Extension", "Web"],
     },
     {
         name: "Mantra Counter App",
