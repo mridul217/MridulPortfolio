@@ -169,8 +169,8 @@ END:VCARD`;
 
         {/* QR Code Section */}
         <section className="text-center pt-10 border-t border-white/5 pb-10">
-          <p className="text-[10px] text-slate-500 mb-6 uppercase tracking-[0.3em] font-black">
-            Scan to save contact
+          <p className="text-[10px] text-indigo-400/80 mb-6 uppercase tracking-[0.3em] font-black">
+            Scan to Connect
           </p>
           <div className="relative inline-block group">
             {/* QR Background Glow */}
